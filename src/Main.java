@@ -1,16 +1,6 @@
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
-import java.time.*;
-import java.time.format.DateTimeFormatter;
-import java.time.format.FormatStyle;
-import java.time.temporal.ChronoField;
-import java.time.temporal.ChronoUnit;
-import java.time.temporal.WeekFields;
-import java.util.*;
-import java.util.concurrent.TimeUnit;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public final class Main {
 
@@ -351,13 +341,13 @@ public final class Main {
         /**
          * @apiNote Annotations
          */
-        Hint hint = Person.class.getAnnotation(Hint.class);
-        System.out.println(hint);
-
-        Hints hints1 = Person.class.getAnnotation(Hints.class);
-        System.out.println(hints1.value().length);
-
-        Hint[] hints2 = Person.class.getAnnotationsByType(Hint.class);
-        System.out.println(hints2.length);
+//        Hint hint = Person.class.getAnnotation(Hint.class);
+//        System.out.println(hint);
+//
+//        Hints hints1 = Person.class.getAnnotation(Hints.class);
+//        System.out.println(hints1.value().length);
+//
+//        Hint[] hints2 = Person.class.getAnnotationsByType(Hint.class);
+//        System.out.println(hints2.length);
     }
 }
